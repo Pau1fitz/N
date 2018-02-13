@@ -1,10 +1,15 @@
 import React from 'react'
+import TitleText from '../../components/TitleText'
 
 const LandingScreen = () => (
   <main className="landing-screen section">
-    <div className="landing-title">
-        <h2 className="landing-text">NWA.</h2>
-    </div>
+
+    <TitleText 
+      text={ 'NWA.' } 
+      color={ '#000' } 
+      size={ '10em' }
+    />
+    
   </main>
 )
 

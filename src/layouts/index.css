@@ -59,13 +59,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.second-screen .landing-text,
-.third-screen .landing-text,
-.fourth-screen .landing-text {
-  color: #fff;
-  font-size: 8em;
-}
-
 .landing-subtext {
   color: #fff;
   font-size: 4em;
