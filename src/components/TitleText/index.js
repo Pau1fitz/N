@@ -18,6 +18,7 @@ const TitleText = ({ text, subtext, color, size }) => (
 
 const LandingTitle = styled.section`
   max-width: 1000px;
+  padding-bottom: 8vh;
 `
 
 const LandingText = styled.h2`

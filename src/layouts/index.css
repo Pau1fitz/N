@@ -29,8 +29,7 @@ p {
   background-color: rgb(42,42,42);
   background-image: url(../img/earth.jpg);
   background-position: center;
-  height: 100vh;
-  padding: 3em;
+  padding: 1em 3em;
   background-size: cover;
   background-position-y: -18em;
   background-repeat: no-repeat;
@@ -40,8 +39,7 @@ p {
   background-color: rgb(44,60,50);
   background-image: url(../img/earth-two.jpg);
   background-position: center;
-  height: 100vh;
-  padding: 3em;
+  padding: 1em 3em;
   background-size: cover;
   background-position-x: 26em;
   background-position-y: -25em;
@@ -52,8 +50,7 @@ p {
   background-color: rgb(42,42,42);
   background-image: url(../img/moon.jpg);
   background-position: center;
-  height: 100vh;
-  padding: 3em;
+  padding: 1em 3em;
   background-size: cover;
   background-position-y: -2em;
   background-repeat: no-repeat;
