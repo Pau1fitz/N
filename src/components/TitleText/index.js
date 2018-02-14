@@ -29,7 +29,7 @@ const LandingText = styled.h2`
 
 const SubText = styled.p`
   color: ${ props => props.color };
-  font-size: 4em;
+  font-size: 2.5em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 1em 0 0 0;
 `
