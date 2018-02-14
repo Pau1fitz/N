@@ -20,14 +20,14 @@ class IndexPage extends Component {
 
     return (
 
-      <div id="fullpage">
+      <main id="fullpage">
 
         <LandingScreen />
         <SecondScreen />
         <ThirdScreen />
         <FourthScreen />
     
-      </div>
+      </main>
   
     )
   }
