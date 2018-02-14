@@ -1,12 +1,16 @@
 import React from 'react'
+import TitleText from '../../components/TitleText'
 import BottomSection from '../../components/BottomSection'
 
 const ThirdScreen = () => (         
   <main className="third-screen section">
-    <section className="landing-title">
-        <h2 className="landing-text">We have a problem*</h2>
-        <p className="landing-subtext">*opportunity</p>
-    </section>
+
+    <TitleText 
+      text={ 'We have a problem*' } 
+      subtext={ '*opportunity' }
+      color={ '#fff' } 
+      size={ '8em' }
+    />
 
     <BottomSection />
   
