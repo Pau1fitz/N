@@ -28,9 +28,9 @@ const LandingText = styled.h2`
 `
 
 const SubText = styled.p`
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: ${ props => props.color };
   font-size: 2.5em;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 1em 0 0 0;
 `
 
