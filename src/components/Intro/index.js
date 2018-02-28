@@ -32,7 +32,7 @@ const Intro = () => (
 const IntroSection = styled.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 25px 2em 25px;
+  padding: 0 25px 2em 25p;
   color: #fff;
 `
 
@@ -62,10 +62,7 @@ const IntroText = styled.p`
   color: #fff;
   font-size: 31px;
   max-width: 750px;
-  line-height: 32px;
+  line-height: 1.42;
 `
-
-
-
 
 export default Intro

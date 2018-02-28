@@ -71,7 +71,7 @@ const AboutUsDescriptionParagraphContainer = styled.div`
 const AboutUsDescriptionParagraph = styled.p`
   font-size: 1em;
   padding-bottom: 0.8em;
-  line-height: 22px;
+  line-height: 1.14;
   font-size: 1.2em;
 `
 
