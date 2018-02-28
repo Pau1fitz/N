@@ -32,7 +32,6 @@ const AboutUs = () => (
 )
 
 const AboutUsContainer = styled.section`
-  background-color: rgb(45, 45, 45);
   color: #fff;
 `
 

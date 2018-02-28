@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Intro from '../components/Intro'
 import AboutUs from '../components/AboutUs'
 import Quote from '../components/Quote'
 import Services from '../components/Services'
-
+import Footer from '../components/Footer'
 
 
 class IndexPage extends Component {
@@ -17,6 +17,7 @@ class IndexPage extends Component {
       <main className='app'>
 
           <Header />
+          <Intro />
           <Quote />
           <AboutUs />
           <Services />
