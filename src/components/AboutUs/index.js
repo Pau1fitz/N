@@ -38,9 +38,9 @@ const AboutUsContainer = styled.section`
 
 const AboutUsSection = styled.section`
   display: flex;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 2em 25px;
 `
 
 const Title = styled.p`
@@ -56,11 +56,12 @@ const AboutUsTitleContainer = styled.div`
 `
 
 const AboutUsDescriptionContainer = styled.div`
-  flex: 2;
+  flex: 1.2;
 `
 
 const AboutUsDescriptionTitle = styled.p`
-  font-size: 2.5em;
+  font-size: 39px;
+  max-width: 600px;
 `
 
 const AboutUsDescriptionParagraphContainer = styled.div`
@@ -71,6 +72,7 @@ const AboutUsDescriptionParagraph = styled.p`
   font-size: 1em;
   padding-bottom: 0.8em;
   line-height: 22px;
+  font-size: 1.2em;
 `
 
 export default AboutUs

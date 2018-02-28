@@ -9,7 +9,7 @@ const Intro = () => (
 
       <IntroSection>
 
-        <IntroTitle>Far Out</IntroTitle>
+        <IntroTitle>Far out</IntroTitle>
 
       </IntroSection>
 
@@ -20,7 +20,7 @@ const Intro = () => (
       <IntroText>
         It's important to see things from a different perspective.
         We combine the right people with a proven way of working to solve
-        your business problems. We have been offering out unique expertise
+        your business problems. We have been offering our unique expertise
         and methology for over 30 years.
       </IntroText>
 
@@ -28,6 +28,13 @@ const Intro = () => (
   </IntroContainer>
 
 )
+
+const IntroSection = styled.section`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px 2em 25px;
+  color: #fff;
+`
 
 const IntroContainer = styled.section`
   background-color: rgb(39, 40, 39);
@@ -42,27 +49,20 @@ const ImageContainer = styled.section`
   background-position: center;
 `
 
-const IntroSection = styled.section`
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2em 0;
-  color: #fff;
-`
-
 const IntroTitle = styled.p`
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 8em;
+  font-size: 150px;
   font-weight: 800;
-  margin-top: 0.8em;
+  padding-top: 100px;
+  letter-spacing: 8px;
 `
 
 const IntroText = styled.p`
   color: #fff;
-  font-size: 1.4em;
-  font-weight: 300;
-  max-width: 500px;
-  line-height: 26px;
+  font-size: 31px;
+  max-width: 750px;
+  line-height: 32px;
 `
 
 

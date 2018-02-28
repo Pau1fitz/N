@@ -25,9 +25,9 @@ const Quote = () => (
 
 const QuoteSection = styled.section`
   display: flex;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2em 0 5em 0;
+  padding: 2em 25px 5em 25px;
   color: #fff;
 `
 
@@ -43,11 +43,12 @@ const QuoteTitleContainer = styled.div`
 `
 
 const QuoteDescriptionContainer = styled.div`
-  flex: 2;
+  flex: 1.2;
 `
 
 const QuoteDescriptionTitle = styled.p`
-  font-size: 2.5em;
+  font-size: 54px;
+  max-width: 550px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
 `

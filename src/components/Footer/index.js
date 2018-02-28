@@ -16,13 +16,13 @@ const Footer = () => (
 
 const FooterContainer = styled.footer`
   background-color: #fff;
-  padding: 2.5em 0;
+  padding: 60px 0;
 `
 
 const FooterItemContainer = styled.div`
   display: flex;
   align-items: center;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 `
 

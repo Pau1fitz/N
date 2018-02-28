@@ -7,11 +7,11 @@ const Contact = () => (
     <Title>Contact</Title>
     <form action=''>
       <TopColumn>
-        <Label>Your Name</Label>
+        <Label>Your name</Label>
         <Input type='text' name='name'/>
       </TopColumn>
       <TopColumn>
-        <Label>Your Email</Label>
+        <Label>Your email address</Label>
         <Input type='text' name='email'/>
       </TopColumn>
       <Label>How can we help?</Label>
@@ -23,10 +23,10 @@ const Contact = () => (
 )
 
 const ContactContainer = styled.section`
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   color: #fff;
-  padding-bottom: 5em;
+  padding: 0 25px 200px 25px;
 `
 
 const Title = styled.p`
@@ -39,9 +39,9 @@ const Title = styled.p`
 
 const Label = styled.p`
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 30px;
   font-weight: 300;
-  padding-bottom: 1em;
+  padding-bottom: 10px;
 `
 
 const Input = styled.input`
@@ -50,6 +50,7 @@ const Input = styled.input`
   width: 90%;
   padding: 1em;
   color: #fff;
+  font-size: 1.5em;
 `
 
 const TextArea = styled.textarea`
@@ -59,6 +60,7 @@ const TextArea = styled.textarea`
   padding: 1em;
   color: #fff;
   height: 15em;
+  font-size: 1.5em;
 `
 
 const TopColumn = styled.div`
@@ -70,10 +72,11 @@ const SubmitButton = styled.input`
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 1em;
+  font-size: 30px;
   margin-right: 4%;
   float: right;
   cursor: pointer;
+  margin-top: 10px;
 `
 
 export default Contact

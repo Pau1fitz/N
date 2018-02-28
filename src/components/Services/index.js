@@ -41,10 +41,10 @@ const Services = () => (
 )
 
 const ServicesSection = styled.section`
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   color: #fff;
-  padding: 2em 0 5em 0;
+  padding: 2em 25px 5em 25px;
 `
 
 const Title = styled.p`
@@ -57,25 +57,23 @@ const Title = styled.p`
 
 const ServiceItemsContainer = styled.div`
   display: flex;
-  justify-content: space-between;
 `
 
 const ServiceItemsColumn = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
 `
 
 const ServiceItemsHeader = styled.p`
-  font-size: 1.5em;
+  font-size: 30px;
   padding-bottom: 1em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 `
 
 const ServiceItems = styled.p`
-  font-size: 1.1em;
-  line-height: 30px;
+  font-size: 23px;
+  line-height: 44px;
 `
-
-
 
 export default Services
