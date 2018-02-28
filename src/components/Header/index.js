@@ -6,7 +6,7 @@ const Header = () => (
 
   <HeaderContainer>
 
-    <Logo padding={ '40px' }/>
+    <Logo padding={ '0.5em' }/>
 
     <NavItemContainer>
 
@@ -23,7 +23,7 @@ const Header = () => (
 const HeaderContainer = styled.header`
   background-color: #fff;
   text-align: center;
-  padding: 1.5em 0;
+  padding: 1em 0 2em 0;
 `
 
 const NavItemContainer = styled.nav`

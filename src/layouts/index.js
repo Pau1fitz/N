@@ -12,7 +12,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'NWA' },
         { name: 'keywords', content: 'NWA' },
+
       ]}>
+      <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     </Helmet>
     <div>
       {children()}
