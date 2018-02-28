@@ -23,6 +23,7 @@ const Header = () => (
 const HeaderContainer = styled.header`
   background-color: #fff;
   text-align: center;
+  padding: 2em 0;
 `
 
 const NavItemContainer = styled.nav`
@@ -35,7 +36,7 @@ const NavItem = styled.a`
   color: #000;
   font-size: 19px;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 1.5em;
 `
 
 export default Header

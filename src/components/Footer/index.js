@@ -5,15 +5,9 @@ import Logo from '../Logo'
 const Footer = () => (
 
   <FooterContainer>
-
-      <Logo />
-
-    
-      <FooterItem>Run / Grow / Scale</FooterItem>
-
-      <Copyright>Copyright 2018 NWA UK Ltd.</Copyright>
-   
-
+    <Logo />
+    <FooterItem>Run / Grow / Scale</FooterItem>
+    <Copyright>Copyright 2018 NWA UK Ltd.</Copyright>
   </FooterContainer>
 
 )

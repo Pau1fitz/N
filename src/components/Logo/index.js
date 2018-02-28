@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 const Logo = ({ padding }) => (
 
-    <LogoText padding={ padding }>
-        NWA
-    </LogoText>
+  <LogoText padding={ padding }>
+      NWA
+  </LogoText>
 
 )
 
