@@ -16,6 +16,7 @@ const Footer = () => (
 
 const FooterContainer = styled.footer`
   background-color: #fff;
+  padding: 2.5em 0;
 `
 
 const FooterItemContainer = styled.div`
