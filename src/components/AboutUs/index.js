@@ -12,6 +12,7 @@ const AboutUs = () => (
       </AboutUsTitleContainer>
 
       <AboutUsDescriptionContainer>
+        
         <AboutUsDescriptionTitle>
           NWA is a business consultancy that helps people and brands do better business
         </AboutUsDescriptionTitle>
@@ -24,7 +25,6 @@ const AboutUs = () => (
         </AboutUsDescriptionParagraphContainer>
       </AboutUsDescriptionContainer>
 
-    
     </AboutUsSection>
 
   </AboutUsContainer>
@@ -33,6 +33,7 @@ const AboutUs = () => (
 
 const AboutUsContainer = styled.section`
   color: #fff;
+  padding-bottom: 2em;
 `
 
 const AboutUsSection = styled.section`
@@ -62,7 +63,7 @@ const AboutUsDescriptionTitle = styled.p`
   font-size: 2.5em;
 `
 
-const AboutUsDescriptionParagraphContainer = styled.p`
+const AboutUsDescriptionParagraphContainer = styled.div`
   padding: 2em 0;
 `
 

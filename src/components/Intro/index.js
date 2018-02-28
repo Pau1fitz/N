@@ -32,6 +32,7 @@ const Intro = () => (
 const IntroContainer = styled.section`
   background-color: rgb(39, 40, 39);
   color: #fff;
+  padding-bottom: 5em;
 `
 
 const ImageContainer = styled.section`
@@ -59,6 +60,7 @@ const IntroTitle = styled.p`
 const IntroText = styled.p`
   color: #fff;
   font-size: 1.4em;
+  font-weight: 300;
   max-width: 500px;
   line-height: 26px;
 `

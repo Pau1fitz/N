@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Services = () => (
 
-    <ServicesSection>
+    <ServicesSection id="services">
 
       <Title>Our Services</Title>
 
@@ -43,11 +43,12 @@ const Services = () => (
 const ServicesSection = styled.section`
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 0;
   color: #fff;
+  padding: 2em 0 5em 0;
 `
 
 const Title = styled.p`
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
   font-size: 1em;
   border-top: 1px solid #fff;
   max-width: 200px;

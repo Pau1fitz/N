@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    clear: both;
+}
+
 .app {
     background-color: rgb(39, 40, 39);
 }

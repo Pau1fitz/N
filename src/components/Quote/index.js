@@ -21,15 +21,13 @@ const Quote = () => (
 
   
   </QuoteSection>
-
 )
-
 
 const QuoteSection = styled.section`
   display: flex;
   max-width: 900px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 2em 0 5em 0;
   color: #fff;
 `
 
@@ -54,7 +52,7 @@ const QuoteDescriptionTitle = styled.p`
   font-weight: 300;
 `
 
-const QuoteDescriptionParagraphContainer = styled.p`
+const QuoteDescriptionParagraphContainer = styled.div`
   padding: 2em 0;
 `
 
