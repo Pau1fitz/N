@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import Logo from '../Logo'
 
-const Header = ({ color }) => (
+const Header = () => (
 
   <HeaderContainer>
 
-    <HeaderTitle>NWA</HeaderTitle>
+    <Logo padding={ '40px' }/>
 
     <NavItemContainer>
 
@@ -22,13 +23,6 @@ const Header = ({ color }) => (
 const HeaderContainer = styled.header`
   background-color: #fff;
   text-align: center;
-`
-
-const HeaderTitle = styled.h1`
-  font-weight: 800;
-  font-size: 49px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 40px 0; 
 `
 
 const NavItemContainer = styled.nav`
