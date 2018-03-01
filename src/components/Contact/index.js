@@ -34,7 +34,7 @@ const Title = styled.p`
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-top: 1px solid #fff;
   max-width: 200px;
-  padding: 10px 0 2em 0;
+  padding: 10px 0 40px 0;
 `
 
 const Label = styled.p`

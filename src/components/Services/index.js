@@ -52,7 +52,7 @@ const Title = styled.p`
   font-size: 1em;
   border-top: 1px solid #fff;
   max-width: 200px;
-  padding: 10px 0 2em 0;
+  padding: 10px 0 40px 0;
 `
 
 const ServiceItemsContainer = styled.div`

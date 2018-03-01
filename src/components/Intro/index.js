@@ -44,7 +44,7 @@ const IntroContainer = styled.section`
 
 const ImageContainer = styled.section`
   background-image: url(${img});
-  background-size: cover;
+  background-size: 110%;
   height: 320px;
   background-position: center;
 `
