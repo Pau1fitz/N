@@ -5,7 +5,7 @@ const Contact = () => (
 
   <ContactContainer id='contact'>
     <Title>Contact</Title>
-    <form action=''>
+    <form method='post' action='mail.php'>
       <TopColumn>
         <Label>Your name</Label>
         <Input type='text' name='name'/>
@@ -15,7 +15,7 @@ const Contact = () => (
         <Input type='text' name='email'/>
       </TopColumn>
       <Label>How can we help?</Label>
-      <TextArea type='text' name='name'/>
+      <TextArea type='text' name='details'/>
       <SubmitButton type='submit' />
     </form>
   </ContactContainer>
